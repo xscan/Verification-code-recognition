@@ -1,0 +1,10 @@
+*.png
+*.jpg
+__pycache__
+/log
+/keras
+/.vscode
+/tensorflow
+tensorflow.zip
+tf-xxhg.py
+auto_threshold.py
