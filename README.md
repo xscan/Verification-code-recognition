@@ -21,9 +21,14 @@
 6. 测试模型(step_last.py)
 
 ##3. 模型应用
+
 直接执行`step_last.py`文件即可从`test_img`文件夹中取得识别图片进行识别
 
 model_labels.dat(标签序列化文件)
 captcha_model.hdf5(特征值文件)
 
+##4. 注意事项
 
+* 生成测试图片（采用的`msyh.tty`字体太大，暂时没有打包,可自行指定字体）
+* model_labels.dat(运行`step5.py`生成出来)
+* captcha_model.hdf5(运行`step5.py`生成出来)
