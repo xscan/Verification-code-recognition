@@ -6,13 +6,13 @@
     * open cv
 
 
-##1. 环境初始化
+## 1. 环境初始化
 执行安装程序依赖的库（opencv库需手动安装或者直接下载whl文件安装）
 
 
     pip3 install -r requirements.txt
 
-##2. 运行步骤
+## 2. 运行步骤
 1. 生成测试图片(generateImage-Thread.py)
 2. 图片二值化处理(step2.py)
 3. 图片分割为单个字符(step3.py)
@@ -20,14 +20,14 @@
 5. 通过tensorflow+keras训练模型(step5.py)
 6. 测试模型(step_last.py)
 
-##3. 模型应用
+## 3. 模型应用
 
 直接执行`step_last.py`文件即可从`test_img`文件夹中取得识别图片进行识别
 
 model_labels.dat(标签序列化文件)
 captcha_model.hdf5(特征值文件)
 
-##4. 注意事项
+## 4. 注意事项
 
 * 生成测试图片（采用的`msyh.tty`字体太大，暂时没有打包,可自行指定字体）
 * model_labels.dat(运行`step5.py`生成出来)
