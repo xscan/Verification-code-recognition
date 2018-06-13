@@ -12,3 +12,6 @@ auto_threshold.py
 msyh.ttf
 captcha_model.hdf5
 model_labels.dat
+
+bitFilter.py
+FloodFill.py
