@@ -45,6 +45,10 @@ for image_file in captcha_image_files:
     counts = {}
     # Load the image and convert it to grayscale
     image = cv2.imread(image_file)
+    # print(image)
+    if image is None:
+        continue
+        pass
     
     # 灰度化
     GrayImage=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY) 
